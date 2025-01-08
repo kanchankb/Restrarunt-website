@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Header</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1>Amigos Kitchen</h1>
+            <p>Indulge in Unforgettable Flavors</p>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Image Slider -->
+    <div class="slider-container">
+        <div class="slider">
+            <img src="./img/pizza.jpg" alt="Image 1">
+            <img src="./img/burger.jpg" alt="Image 2">
+            <img src="./img/dessert-6809938_1280.jpg" alt="Image 3">
+            <img src="./img/salad .jpg" alt="salad">
+            <img src="./img/straw.jpg" alt="Image 5">
+            <img src="./img/1.jpg" alt="Image 6">
+            <img src="./img/2.jpg" alt="Image 7">
+            <img src="./img/3.jpg" alt="Image 8">
+            <img src="./img/pizza.jpg" alt="Image 1">
+            <img src="./img/burger.jpg" alt="Image 2">
+            <img src="./img/dessert-6809938_1280.jpg" alt="Image 3">
+            <img src="./img/salad.jpg" alt="Image 4">
+            <img src="./img/straw.jpg" alt="Image 5">
+            <img src="./img/1.jpg" alt="Image 6">
+            <img src="./img/2.jpg" alt="Image 7">
+            <img src="./img/3.jpg" alt="Image 8">
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+    
+        <div class="container">
+            <!-- <h2>Menus</h2> -->
+            <div class="gallery-images">
+                <div class="gallery-item">
+                    <img src="./img/pizza2.jpg" alt="Food 1">
+                    <div class="overlay">
+                        <h3>Delicious Pizza</h3>
+                        <p>Where every bite is a slice of heaven</p>
+                        <button class="explore-button">Explore</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/salad-2592039_1280.jpg" alt="Food 2">
+                    <div class="overlay">
+                        <h3>Fresh Salad</h3>
+                        <p>A crisp and fresh way to fuel your day</p>
+                        <button class="explore-button">Explore</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/table.jpg" alt="Food 3">
+                    <div class="overlay">
+                        <h3>Book your Table</h3>
+                        <p>The best seat in the house awaits you</p>
+                        <button class="explore-button">Explore</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/bar.jpg" alt="Food 4">
+                    <div class="overlay">
+                        <h3>Bar</h3>
+                        <p>Raise a glass to great moments</p>
+                        <button class="explore-button">Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="image-container">
+            <img src="./img/pic.jpg" alt="Restaurant Image">
+        </div>
+        <div class="text-container">
+            <h1>Amigos Kitchen</h1>
+            <p>
+                Amigos Kitchen, nestled in the heart of Auckland, New Zealand, offers a vibrant culinary escape inspired by the rich and diverse flavors of Indian cuisine. Known for its artistry in blending spices, Amigos Kitchen serves dishes that celebrate tradition while embracing modern tastes.
+            </p>
+            <p>
+                From sizzling tandoori platters to aromatic biryanis and handcrafted curries, every dish at Amigos Kitchen is a masterpiece created with premium ingredients and a passion for excellence. The warm and inviting ambiance, paired with impeccable service, ensures a dining experience that lingers in your memory.
+            </p>
+            <p>
+                Whether you crave the bold heat of spices or the soothing comfort of mild flavors, Amigos Kitchen caters to every palate. With an array of vegetarian and non-vegetarian options, it’s your gateway to an extraordinary journey through India’s culinary heritage.
+            </p>
+            <p>
+                View our <a href="#">full menu</a>
+            </p>
+
+            <div class="button-container">
+                <button class="button">Order Online Now</button>
+                <button class="button">Dine In Menu</button>
+            </div>
+
+            <div class="app-icons">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+                <img src="./img/app-store.png" alt="Download on the App Store">
+            </div>
+        </div>
+    </div>
+    <div class="reservation-container">
+        <h1>Make a Table Reservation with Amigos Kitchen</h1>
+        <p>Please select the number of people and the required date and time</p>
+        <form class="reservation-form">
+            <!-- Date Picker -->
+            <div class="input-group">
+                <label for="date" aria-label="Select date">
+                    <span class="icon">📅</span>
+                </label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <!-- Time Selection -->
+            <div class="input-group">
+                <label for="time" aria-label="Select time">
+                    <span class="icon">⏰</span>
+                </label>
+                <select id="time" name="time" required>
+                    <option value="" disabled selected>Select time</option>
+                    <option value="6:00 PM">6:00 PM</option>
+                    <option value="6:30 PM">6:30 PM</option>
+                    <option value="7:00 PM">7:00 PM</option>
+                    <option value="7:30 PM">7:30 PM</option>
+                    <option value="8:00 PM">8:00 PM</option>
+                </select>
+            </div>
+            <!-- People Selection -->
+            <div class="input-group">
+                <label for="people" aria-label="Select number of people">
+                    <span class="icon">👤</span>
+                </label>
+                <select id="people" name="people" required>
+                    <option value="1" selected>1 person</option>
+                    <option value="2">2 people</option>
+                    <option value="3">3 people</option>
+                    <option value="4">4 people</option>
+                    <option value="5">5 people</option>
+                </select>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit" class="next-button">Next</button>
+        </form>
+        </div>
+        <footer style="background-color: #222; color: #fff; text-align: center; padding: 28px 0; font-size: 14px;">
+            © 2025 Amigos Kitchen all rights reserved. Website designed by Order Meal  
+          
+          </footer>
+          
+</body>
+</html>
